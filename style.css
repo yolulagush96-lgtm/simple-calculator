@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cal-container{
+    background-color: rgb(201, 201, 201);
+    margin: 50px auto;
+    padding: 25px;
+    height: 325px;
+    width: 200px;
+}
+
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    background: rgb(72, 72, 72);
+    color:white;
+    height: 25px;
+    width: 190px;
+    padding: 1px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: grid;
+    padding: 1px;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+}
+
+.buttons button {
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.buttons button:hover {
+    background: orangered;
+}
